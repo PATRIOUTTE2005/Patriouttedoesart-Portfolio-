@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: #000;
+}
+body header{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    position: relative;
+    top: .5em;
+    text-align: center;
+}
+
+header h1{
+    padding: .2em;
+    font-size: clamp(2rem, 10vw, 5rem);
+}
+
+header h1, p{
+    color: white;
+}
+
+small{
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    background-color: #4E84A9;
+    border-radius: 5px;
+    padding: .5em;
+    font-size: clamp(1rem, 2vw,2rem);
+
+}
+
+header li{
+    padding: 1em;
+}
+
+header ul{
+    display: block;
+    list-style: none;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+main h1{
+    position: relative;
+    top: 1em;
+    text-align: left;
+    font-size: 2rem;
+}
+
+figcaption{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    position: relative;
+    top: 1em;
+    text-align: center;
+}
+
+#grid_Container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    
+}
+
+
+
+#grid_Container img{
+    height: auto;
+    width: 100%;
+    display: block;
+    padding-top: 40px;
+}
+#grid_Container_2 img{
+    height: auto;
+    width: 100%;
+    display: block;
+    padding-top: 40px;
+}
+
+#grid_Container_3 img{
+    height: auto;
+    width: 100%;
+    display: block;
+    padding-top: 40px;
+}
+
+small a{
+    color: orange;
+    list-style: none;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    margin-top: 3em;
+    padding: 3em;
+}
+.copyright{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(.5rem, 2vw, 3rem);
+    margin-top: 3em;
+}
+
+
+ul img{
+    height: 50px;
+    width: 50px;
+}
+
+.gumroad{
+    height: 40px;
+    width: 40px;
+}
+
+@media screen and (min-width: 720px) {
+    header ul{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    box-sizing: border-box;
+    }
+}
