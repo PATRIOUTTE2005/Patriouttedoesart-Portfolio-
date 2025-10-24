@@ -42,10 +42,31 @@ header li{
 }
 
 header ul{
-    display: block;
     list-style: none;
     padding: 2em;
-    box-sizing: border-box;
+}
+
+ul img{
+    height: 50px;
+    width: 50px;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+}
+
+ul a{
+    width: 6em;
+    text-align: center;
+}
+
+
+.gumroad{
+    height: 40px;
+    width: 40px;
+    margin-left: 2px;
+    margin-right: 7px;
 }
 
 main h1{
@@ -77,20 +98,17 @@ figcaption{
 #grid_Container img{
     height: auto;
     width: 100%;
-    display: block;
     padding-top: 40px;
 }
 #grid_Container_2 img{
     height: auto;
     width: 100%;
-    display: block;
     padding-top: 40px;
 }
 
 #grid_Container_3 img{
     height: auto;
     width: 100%;
-    display: block;
     padding-top: 40px;
 }
 
@@ -111,15 +129,7 @@ footer{
 }
 
 
-ul img{
-    height: 50px;
-    width: 50px;
-}
 
-.gumroad{
-    height: 40px;
-    width: 40px;
-}
 
 @media screen and (min-width: 720px) {
     header ul{
@@ -128,6 +138,5 @@ ul img{
     justify-content: center;
     align-items: center;
     list-style: none;
-    box-sizing: border-box;
     }
 }
